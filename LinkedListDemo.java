@@ -127,7 +127,8 @@ class LinkedList implements Iterable<Node> {
         int[] result = new int[len];
         int i = 0;
 
-        LinkedListIterator iterator = new LinkedListIterator(head);
+        // Iterator<Node> iterator = iterator(); // Infer gets wrong; classifies as impure
+        Iterator<Node> iterator = new LinkedListIterator(head); // Infer gets right; classifies as pure
         while (iterator.hasNext()) {
             Node node = iterator.next();
             result[i++] = node.data; // read-only access
@@ -138,7 +139,7 @@ class LinkedList implements Iterable<Node> {
 
     // Required by Iterable interface
     @Override
-    public Iterator<Node> iterator() { // pure (doesn't modify state but does access state: head)
+    public Iterator<Node> iterator() { // pure (doesn't modify state but does read state)
         return new LinkedListIterator(head);
         // No side effects; returns new object each time
     }
