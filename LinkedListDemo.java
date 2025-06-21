@@ -127,8 +127,9 @@ class LinkedList implements Iterable<Node> {
         int[] result = new int[len];
         int i = 0;
 
-        // Iterator<Node> iterator = iterator(); // Infer gets wrong; classifies as impure
-        Iterator<Node> iterator = new LinkedListIterator(head); // Infer gets right; classifies as pure
+        // Iterator<Node> iterator = iterator(); // Infer --purity gets wrong; classifies as impure
+        Iterator<Node> iterator = new LinkedListIterator(head); // Infer --purity gets right; classifies as pure
+        // Infer --impurity gets both approaches above right
         while (iterator.hasNext()) {
             Node node = iterator.next();
             result[i++] = node.data; // read-only access
