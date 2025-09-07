@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../.."
+		},
+		{
+			"path": "../../../../../../../linked_list_demo_kotlin"
+		},
+		{
+			"path": "../../../../../../../linked_list_demo_gradle"
+		},
+		{
+			"path": "../../../../../../../linked_list_demo_kotlin_gradle"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
