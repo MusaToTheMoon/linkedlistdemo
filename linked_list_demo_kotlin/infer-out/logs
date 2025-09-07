@@ -1,0 +1,296 @@
+[10836][      debug] Sqlite write daemon: starting up
+[10836][      debug] Sqlite write daemon: set up complete, waiting for connections
+[10840][      debug] Sqlite write daemon: process starting, pid= 10840
+[10836][environment] CWD = /Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_kotlin
+[10836][environment] No .inferconfig file found
+[10836][environment] Project root = /Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_kotlin
+[10836][environment] INFER_ARGS =   @/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/args.tmp.65b0bb
+[10836][environment]                --progress-bar-style multiline
+[10836][environment] command line arguments:   infer run --impurity -- kotlinc -cp
+[10836][environment]                           target/dependency/commons-lang3-3.12.0.jar:target/dependency/kotlin-stdlib-1.9.10.jar
+[10836][environment]                           src/main/kotlin/com/linkedlist/app/LinkedList.kt
+[10836][environment]                           src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt
+[10836][environment]                           src/main/kotlin/com/linkedlist/app/LinkedListIterator.kt
+[10836][environment]                           src/main/kotlin/com/linkedlist/app/Node.kt -d
+[10836][environment]                           target/classes
+[10836][environment] Could not retrieve available memory (possibly not on Linux)
+[10836][environment] Active checkers: self-in-block (C/C++/ObjC), parameter-not-null-checked (C/C++/ObjC), starvation (C/C++/ObjC, Java), siof (C/C++/ObjC), racerd (C/C++/ObjC, C#/.Net, Java), pulse (C/C++/ObjC, C#/.Net, Erlang, Hack, Java, Python), impurity (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java)
+[10836][environment] Scheduler: restart
+[10836][environment] Cores used: 10
+[10836][environment] Infer version v1.2.0
+[10836][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[10836][environment] 
+[10836][   progress] Capturing in kotlinc mode...
+[10836][      debug] Current working directory: '/Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_kotlin'
+[10836][      debug] Trying to execute: kotlinc '@/Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_kotlin/infer-out/tmp/kotlinc_args.tmp.8d5a27'
+[10836][      debug] *** Success. Logs:
+[10836][      debug] Translating 4 source files (1348 classes)
+[10836][      debug] Global tenv size global_tenv_size_mb: 0
+[10836][      debug] done capturing all files
+[10836][      debug] GC stats for capture:
+[10836][      debug]   minor_words: 7.66642e+07
+[10836][      debug]   promoted_words: 6.21770e+06
+[10836][      debug]   major_words: 1.90392e+07
+[10836][      debug]   minor_collections: 148
+[10836][      debug]   major_collections: 12
+[10836][      debug]   compactions: 0
+[10836][      debug]   top_heap_words: 9432576
+[10836][      debug]   
+[10836][environment] Parallel jobs: 10
+[10836][   progress] Found 4 source files to analyze in /Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_kotlin/infer-out
+[10859][   progress] Analysing block of 200 procs, starting with Node Node.getNext()
+[10856][   progress] Analysing block of 200 procs, starting with Node LinkedListIterator.next()
+[10860][   progress] Analysing block of 200 procs, starting with void LinkedListIterator.remove()
+[10863][   progress] Analysing block of 200 procs, starting with LinkedListDemo.<init>()
+[10861][   progress] Analysing block of 200 procs, starting with LinkedListIterator.<init>(Node)
+[10857][   progress] Analysing block of 200 procs, starting with void LinkedListDemo.<clinit>()
+[10864][   progress] Analysing block of 200 procs, starting with boolean LinkedListIterator.hasNext()
+[10858][   progress] Analysing block of 200 procs, starting with void LinkedList.insertAtHead(int)
+[10862][   progress] Analysing block of 200 procs, starting with Object LinkedListIterator.next()
+[10865][   progress] Analysing block of 200 procs, starting with int[] LinkedList.traverse()
+[10862][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt starting
+[10858][   progress] src/main/kotlin/com/linkedlist/app/LinkedListIterator.kt starting
+[10859][   progress] src/main/kotlin/com/linkedlist/app/Node.kt starting
+[10860][   progress] src/main/kotlin/com/linkedlist/app/LinkedList.kt starting
+[10859][   progress] src/main/kotlin/com/linkedlist/app/Node.kt DONE
+[10862][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt DONE
+[10858][   progress] src/main/kotlin/com/linkedlist/app/LinkedListIterator.kt DONE
+[10863][   progress] src/main/kotlin/com/linkedlist/app/LinkedListIterator.kt starting
+[10863][   progress] src/main/kotlin/com/linkedlist/app/LinkedListIterator.kt DONE
+[10856][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt starting
+[10860][   progress] src/main/kotlin/com/linkedlist/app/LinkedList.kt DONE
+[10856][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt DONE
+[10857][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt starting
+[10857][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt DONE
+[10856][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt starting
+[10856][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt DONE
+[10856][   progress] src/main/kotlin/com/linkedlist/app/LinkedList.kt starting
+[10857][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt starting
+[10857][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt DONE
+[10856][   progress] src/main/kotlin/com/linkedlist/app/LinkedList.kt DONE
+[10856][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt starting
+[10856][   progress] src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt DONE
+[10836][      debug] Backend stats:
+[10836][      debug]   summary_file_try_load= 517
+[10836][      debug]   summary_read_from_disk= 108
+[10836][      debug]   summary_cache_hits= 415 (44%)
+[10836][      debug]   summary_cache_misses= 517
+[10836][      debug]   ondemand_procs_analyzed= 34
+[10836][      debug]   proc_locker_lock_time_user= 0.00041300
+[10836][      debug]   proc_locker_lock_time_sys= 0.00435500
+[10836][      debug]   proc_locker_lock_time_wall= 0.00675275
+[10836][      debug]   proc_locker_lock_time_oncpu_pct= 71%
+[10836][      debug]   proc_locker_unlock_time_user= 0.00025400
+[10836][      debug]   proc_locker_unlock_time_sys= 0.00325400
+[10836][      debug]   proc_locker_unlock_time_wall= 0.00384458
+[10836][      debug]   proc_locker_unlock_time_oncpu_pct= 91%
+[10836][      debug]   restart_scheduler_useful_time_user= 0.78538200
+[10836][      debug]   restart_scheduler_useful_time_sys= 0.21183500
+[10836][      debug]   restart_scheduler_useful_time_wall= 2.01692671
+[10836][      debug]   restart_scheduler_useful_time_oncpu_pct= 49%
+[10836][      debug]   restart_scheduler_total_time_user= 0.79782000
+[10836][      debug]   restart_scheduler_total_time_sys= 0.22493200
+[10836][      debug]   restart_scheduler_total_time_wall= 2.05438292
+[10836][      debug]   restart_scheduler_total_time_oncpu_pct= 50%
+[10836][      debug]   pulse_aliasing_contradictions= 0
+[10836][      debug]   pulse_args_length_contradictions= 0
+[10836][      debug]   pulse_captured_vars_length_contradictions= 0
+[10836][      debug]   pulse_disjuncts_dropped= 0
+[10836][      debug]   pulse_interrupted_loops= 17
+[10836][      debug]   pulse_summaries_contradictions= 0
+[10836][      debug]   pulse_summaries_unsat_for_caller= 5
+[10836][      debug]   pulse_summaries_unsat_for_caller_percent= 14
+[10836][      debug]   pulse_summaries_with_some_unreachable_nodes= 15
+[10836][      debug]   pulse_summaries_with_some_unreachable_nodes_percent= 44
+[10836][      debug]   pulse_summaries_with_some_unreachable_returns= 1
+[10836][      debug]   pulse_summaries_with_some_unreachable_returns_percent= 0.2%
+[10836][      debug]   pulse_summaries_count= [0 -> 1, 1 -> 14, 2 -> 6, 3 -> 3, 4 -> 5, 5 -> 2, 8 -> 1, 10 -> 1, 16 -> 1]
+[10836][      debug]   pulse_summaries_total_disjuncts= 99
+[10836][      debug]   pulse_summaries_count_0_continue_program= 2
+[10836][      debug]   pulse_summaries_count_0_percent= 5
+[10836][      debug]   topl_reachable_calls= 0
+[10836][      debug]   timeouts= 0
+[10836][      debug]   timings= timings for fragment-retains-view:
+[10836][      debug]     p10: 0.000000s p20: 0.000000s p30: 0.000000s p40: 0.000000s
+[10836][      debug]     p50: 0.000001s p60: 0.000001s p70: 0.000001s p80: 0.000001s
+[10836][      debug]     p90: 0.000001s p95: 0.000001s p96: 0.000001s p97: 0.000001s
+[10836][      debug]     p98: 0.000001s p99: 0.000001s p99.9: 0.000001s p99.99: 0.000001s 
+[10836][      debug]   timings for impurity:
+[10836][      debug]     p10: 0.000000s p20: 0.000001s p30: 0.000002s p40: 0.000003s
+[10836][      debug]     p50: 0.000005s p60: 0.000009s p70: 0.000012s p80: 0.000023s
+[10836][      debug]     p90: 0.000054s p95: 0.000267s p96: 0.001707s p97: 0.005164s
+[10836][      debug]     p98: 0.008622s p99: 0.010452s p99.9: 0.010452s p99.99: 0.010452s 
+[10836][      debug]   timings for inefficient-keyset-iterator:
+[10836][      debug]     p10: 0.000000s p20: 0.000001s p30: 0.000004s p40: 0.000004s
+[10836][      debug]     p50: 0.000005s p60: 0.000006s p70: 0.000009s p80: 0.000012s
+[10836][      debug]     p90: 0.000017s p95: 0.000043s p96: 0.000050s p97: 0.000051s
+[10836][      debug]     p98: 0.000052s p99: 0.000052s p99.9: 0.000052s p99.99: 0.000052s 
+[10836][      debug]   timings for pulse:
+[10836][      debug]     p10: 0.000117s p20: 0.000934s p30: 0.001260s p40: 0.001578s
+[10836][      debug]     p50: 0.001760s p60: 0.002002s p70: 0.005602s p80: 0.008385s
+[10836][      debug]     p90: 0.019054s p95: 0.020218s p96: 0.020885s p97: 0.022471s
+[10836][      debug]     p98: 0.024056s p99: 0.024896s p99.9: 0.024896s p99.99: 0.024896s 
+[10836][      debug]   timings for racerd:
+[10836][      debug]     p10: 0.000000s p20: 0.000001s p30: 0.000008s p40: 0.000018s
+[10836][      debug]     p50: 0.000035s p60: 0.000049s p70: 0.000073s p80: 0.000117s
+[10836][      debug]     p90: 0.000720s p95: 0.001252s p96: 0.001299s p97: 0.001345s
+[10836][      debug]     p98: 0.001391s p99: 0.001415s p99.9: 0.001415s p99.99: 0.001415s 
+[10836][      debug]   timings for starvation:
+[10836][      debug]     p10: 0.000000s p20: 0.000003s p30: 0.000019s p40: 0.000044s
+[10836][      debug]     p50: 0.000054s p60: 0.000152s p70: 0.000286s p80: 0.000420s
+[10836][      debug]     p90: 0.000546s p95: 0.000692s p96: 0.000710s p97: 0.000727s
+[10836][      debug]     p98: 0.000740s p99: 0.000753s p99.9: 0.000753s p99.99: 0.000753s 
+[10836][      debug]   timings for preanalysis:
+[10836][      debug]     p10: 0.000127s p20: 0.000256s p30: 0.000313s p40: 0.000419s
+[10836][      debug]     p50: 0.000510s p60: 0.000874s p70: 0.001096s p80: 0.055825s
+[10836][      debug]     p90: 0.057537s p95: 0.057745s p96: 0.057854s p97: 0.057943s
+[10836][      debug]     p98: 0.057949s p99: 0.057955s p99.9: 0.057955s p99.99: 0.057955s 
+[10836][      debug]   
+[10836][      debug]   longest_proc_duration_heap= [
+[10836][      debug]   215482us: src/main/kotlin/com/linkedlist/app/LinkedList.kt: void LinkedList.printList()
+[10836][      debug]   163525us: src/main/kotlin/com/linkedlist/app/LinkedListIterator.kt: void LinkedListIterator.remove()
+[10836][      debug]   163320us: src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt: LinkedListDemo.<init>()
+[10836][      debug]   162626us: src/main/kotlin/com/linkedlist/app/LinkedListIterator.kt: LinkedListIterator.<init>(Node)
+[10836][      debug]   162491us: src/main/kotlin/com/linkedlist/app/LinkedListIterator.kt: boolean LinkedListIterator.hasNext()
+[10836][      debug]   162300us: src/main/kotlin/com/linkedlist/app/Node.kt: Node Node.getNext()
+[10836][      debug]   161006us: src/main/kotlin/com/linkedlist/app/Node.kt: Node.<init>(int)
+[10836][      debug]   160384us: src/main/kotlin/com/linkedlist/app/Node.kt: void Node.setData(int)
+[10836][      debug]   160287us: src/main/kotlin/com/linkedlist/app/LinkedList.kt: LinkedList.<init>()
+[10836][      debug]   159995us: src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt: void LinkedListDemo.demonstrateStringUtils()
+[10836][      debug]   ]
+[10836][      debug]   process_times_user= 0.80502700
+[10836][      debug]   process_times_sys= 0.24273500
+[10836][      debug]   process_times_wall= 3.22965800
+[10836][      debug]   process_times_oncpu_pct= 32%
+[10836][      debug]   useful_times_user= 0.80463100
+[10836][      debug]   useful_times_sys= 0.24182100
+[10836][      debug]   useful_times_wall= 2.09050709
+[10836][      debug]   useful_times_oncpu_pct= 50%
+[10836][      debug]   spec_store_times_user= 0.57351300
+[10836][      debug]   spec_store_times_sys= 0.08461200
+[10836][      debug]   spec_store_times_wall= 1.53924221
+[10836][      debug]   spec_store_times_oncpu_pct= 43%
+[10836][      debug]   
+[10836][      debug] GC stats for backend_stats.gc_stats_add.:
+[10836][      debug]   minor_words: 4.16096e+07
+[10836][      debug]   promoted_words: 4.0377e+06
+[10836][      debug]   major_words: 4.39981e+06
+[10836][      debug]   minor_collections: 38
+[10836][      debug]   major_collections: 4
+[10836][      debug]   compactions: 0
+[10836][      debug]   top_heap_words: 94325760
+[10836][      debug]   
+[10836][      debug] GC stats for backend_stats.gc_stats_max.:
+[10836][      debug]   minor_words: 1.63745e+07
+[10836][      debug]   promoted_words: 638265
+[10836][      debug]   major_words: 761105
+[10836][      debug]   minor_collections: 16
+[10836][      debug]   major_collections: 1
+[10836][      debug]   compactions: 0
+[10836][      debug]   top_heap_words: 9432576
+[10836][      debug]   
+[10836][      debug] Average over 10 processes
+[10836][      debug] GC stats for backend_stats.gc_stats_average.:
+[10836][      debug]   minor_words: 4.16096e+06
+[10836][      debug]   promoted_words: 403770
+[10836][      debug]   major_words: 439981
+[10836][      debug]   minor_collections: 3
+[10836][      debug]   major_collections: 0
+[10836][      debug]   compactions: 0
+[10836][      debug]   top_heap_words: 9432576
+[10836][      debug]   
+[10836][      debug] Analysis phase finished in 349ms
+[10836][      debug] backend_stats.scheduler_process_analysis_time_user= 0.04027300
+[10836][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.03568900
+[10836][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.34816992
+[10836][      debug] backend_stats.scheduler_process_analysis_time_oncpu_pct= 22%
+[10836][      debug] GC stats for analysis_scheduler:
+[10836][      debug]   minor_words: 1.62648e+06
+[10836][      debug]   promoted_words: 15709
+[10836][      debug]   major_words: 342701
+[10836][      debug]   minor_collections: 2
+[10836][      debug]   major_collections: 2
+[10836][      debug]   compactions: 1
+[10836][      debug]   top_heap_words: 9432576
+[10836][      debug]   
+[10836][     result] 
+src/main/kotlin/com/linkedlist/app/LinkedList.kt:12: error: Impure Function
+  Impure function void LinkedList.insert(int). 
+  10.        * Insert a new element at the end of the list
+  11.        */
+  12. >     fun insert(data: Int) {
+  13.           val newNode = Node(data)
+  14.           if (head == null) {
+
+src/main/kotlin/com/linkedlist/app/LinkedList.kt:29: error: Impure Function
+  Impure function void LinkedList.insertAtHead(int). 
+  27.        * Insert a new element at the beginning of the list
+  28.        */
+  29. >     fun insertAtHead(data: Int) {
+  30.           val newNode = Node(data)
+  31.           newNode.next = head
+
+src/main/kotlin/com/linkedlist/app/LinkedList.kt:38: error: Impure Function
+  Impure function void LinkedList.delete(int). 
+  36.        * Delete the first occurrence of the specified value
+  37.        */
+  38. >     fun delete(key: Int) {
+  39.           if (head == null) return
+  40.   
+
+src/main/kotlin/com/linkedlist/app/LinkedList.kt:84: error: Impure Function
+  Impure function void LinkedList.printList(). 
+  82.        * Print the list to console
+  83.        */
+  84. >     fun printList() {
+  85.           var current = head
+  86.           while (current != null) {
+
+src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt:11: error: Impure Function
+  Impure function void LinkedListDemo.main(String[]) with empty pulse summary. 
+   9.       
+  10.       @JvmStatic
+  11. >     fun main(args: Array<String>) {
+  12.           println("LinkedList Demo Application")
+  13.           println("===========================")
+
+
+Found 10 issues (console output truncated to 5, see '/Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_kotlin/infer-out/report.txt' for the full list)
+        Issue Type(ISSUED_TYPE_ID): #
+  Impure Function(IMPURE_FUNCTION): 10
+
+[10836][      debug] GC stats for report:
+[10836][      debug]   minor_words: 166809
+[10836][      debug]   promoted_words: 0
+[10836][      debug]   major_words: 4035
+[10836][      debug]   minor_collections: 0
+[10836][      debug]   major_collections: 0
+[10836][      debug]   compactions: 0
+[10836][      debug]   top_heap_words: 9432576
+[10836][      debug]   
+[10836][      debug] GC stats for main_process_full:
+[10836][      debug]   minor_words: 8.1427e+07
+[10836][      debug]   promoted_words: 6.94036e+06
+[10836][      debug]   major_words: 2.01377e+07
+[10836][      debug]   minor_collections: 158
+[10836][      debug]   major_collections: 15
+[10836][      debug]   compactions: 1
+[10836][      debug]   top_heap_words: 9432576
+[10836][      debug]   
+[10840][      debug] Detected 10 spec overwrites.
+[10840][      debug] Sqlite write daemon: terminating
+[10836][      debug] Sqlite write daemon: waiting for process 10840 to finish
+[10840][      debug] dbwriter.useful_time_user= 0.05669200
+[10840][      debug] dbwriter.useful_time_sys= 0.01578500
+[10840][      debug] dbwriter.useful_time_wall= 0.21765566
+[10840][      debug] dbwriter.useful_time_oncpu_pct= 33%
+[10840][      debug] dbwriter.store_sql_user= 0.00178600
+[10840][      debug] dbwriter.store_sql_sys= 0.00269300
+[10840][      debug] dbwriter.store_sql_wall= 0.00960133
+[10840][      debug] dbwriter.store_sql_oncpu_pct= 47%
+[10840][      debug] dbwriter.store_sql_pct= 6%
+[10840][      debug] dbwriter.total_time_user= 0.07032600
+[10840][      debug] dbwriter.total_time_sys= 0.02093100
+[10840][      debug] dbwriter.total_time_wall= 3.11082979
+[10840][      debug] dbwriter.total_time_oncpu_pct= 3%
+[10840][      debug] [10836][      debug] Sqlite write daemon: process 10840 terminated

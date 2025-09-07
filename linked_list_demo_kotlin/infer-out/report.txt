@@ -1,0 +1,92 @@
+#0
+src/main/kotlin/com/linkedlist/app/LinkedList.kt:12: error: Impure Function
+  Impure function void LinkedList.insert(int). 
+  10.        * Insert a new element at the end of the list
+  11.        */
+  12. >     fun insert(data: Int) {
+  13.           val newNode = Node(data)
+  14.           if (head == null) {
+
+#1
+src/main/kotlin/com/linkedlist/app/LinkedList.kt:29: error: Impure Function
+  Impure function void LinkedList.insertAtHead(int). 
+  27.        * Insert a new element at the beginning of the list
+  28.        */
+  29. >     fun insertAtHead(data: Int) {
+  30.           val newNode = Node(data)
+  31.           newNode.next = head
+
+#2
+src/main/kotlin/com/linkedlist/app/LinkedList.kt:38: error: Impure Function
+  Impure function void LinkedList.delete(int). 
+  36.        * Delete the first occurrence of the specified value
+  37.        */
+  38. >     fun delete(key: Int) {
+  39.           if (head == null) return
+  40.   
+
+#3
+src/main/kotlin/com/linkedlist/app/LinkedList.kt:84: error: Impure Function
+  Impure function void LinkedList.printList(). 
+  82.        * Print the list to console
+  83.        */
+  84. >     fun printList() {
+  85.           var current = head
+  86.           while (current != null) {
+
+#4
+src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt:11: error: Impure Function
+  Impure function void LinkedListDemo.main(String[]) with empty pulse summary. 
+   9.       
+  10.       @JvmStatic
+  11. >     fun main(args: Array<String>) {
+  12.           println("LinkedList Demo Application")
+  13.           println("===========================")
+
+#5
+src/main/kotlin/com/linkedlist/app/LinkedListDemo.kt:62: error: Impure Function
+  Impure function void LinkedListDemo.demonstrateStringUtils(). 
+  60.        */
+  61.       @JvmStatic
+  62. >     fun demonstrateStringUtils() {
+  63.           println("\n=== External Dependency Demo ===")
+  64.           
+
+#6
+src/main/kotlin/com/linkedlist/app/LinkedListIterator.kt:6: error: Impure Function
+  Impure function Object LinkedListIterator.next(). 
+  4.    * Iterator implementation for the LinkedList
+  5.    */
+  6. > class LinkedListIterator(private var current: Node?) : Iterator<Node> {
+  7.       
+  8.       override fun hasNext(): Boolean {
+
+#7
+src/main/kotlin/com/linkedlist/app/LinkedListIterator.kt:12: error: Impure Function
+  Impure function Node LinkedListIterator.next(). 
+  10.       }
+  11.   
+  12. >     override fun next(): Node {
+  13.           val temp = current ?: throw NoSuchElementException()
+  14.           current = current?.next
+
+#8
+src/main/kotlin/com/linkedlist/app/Node.kt:6: error: Impure Function
+  Impure function void Node.setData(int). 
+  4.    * Node class representing a single element in the LinkedList
+  5.    */
+  6. > class Node(var data: Int) {
+  7.       var next: Node? = null
+  8.   }
+
+#9
+src/main/kotlin/com/linkedlist/app/Node.kt:7: error: Impure Function
+  Impure function void Node.setNext(Node). 
+  5.    */
+  6.   class Node(var data: Int) {
+  7. >     var next: Node? = null
+  8.   }
+
+Found 10 issues
+        Issue Type(ISSUED_TYPE_ID): #
+  Impure Function(IMPURE_FUNCTION): 10
