@@ -1,0 +1,128 @@
+#0
+app/src/main/java/com/linkedlist/app/LinkedList.kt:12: error: Impure Function
+  Impure function void LinkedList.insert(int). 
+  10.        * Insert a new element at the end of the list
+  11.        */
+  12. >     fun insert(data: Int) {
+  13.           val newNode = Node(data)
+  14.           if (head == null) {
+
+#1
+app/src/main/java/com/linkedlist/app/LinkedList.kt:29: error: Impure Function
+  Impure function void LinkedList.insertAtHead(int). 
+  27.        * Insert a new element at the beginning of the list
+  28.        */
+  29. >     fun insertAtHead(data: Int) {
+  30.           val newNode = Node(data)
+  31.           newNode.next = head
+
+#2
+app/src/main/java/com/linkedlist/app/LinkedList.kt:38: error: Impure Function
+  Impure function void LinkedList.delete(int). 
+  36.        * Delete the first occurrence of the specified value
+  37.        */
+  38. >     fun delete(key: Int) {
+  39.           if (head == null) return
+  40.   
+
+#3
+app/src/main/java/com/linkedlist/app/LinkedList.kt:84: error: Impure Function
+  Impure function String LinkedList.printList(). 
+  82.        * Print the list to console
+  83.        */
+  84. >     fun printList(): String {
+  85.           var listString = ""
+  86.           var current = head
+
+#4
+app/src/main/java/com/linkedlist/app/LinkedListDemo.kt:11: error: Impure Function
+  Impure function void LinkedListDemo.runDemo() with empty pulse summary. 
+   9.   object LinkedListDemo {
+  10.       
+  11. >     fun runDemo() {
+  12.           Log.d("LinkedListDemo", "LinkedList Demo Application: Kotlin")
+  13.           Log.d("LinkedListDemo", "===========================")
+
+#5
+app/src/main/java/com/linkedlist/app/LinkedListDemo.kt:64: error: Impure Function
+  Impure function void LinkedListDemo.demonstrateStringUtils(). 
+  62.        * Demonstrates usage of external dependency (Apache Commons Lang)
+  63.        */
+  64. >     fun demonstrateStringUtils() {
+  65.           Log.d("LinkedListDemo", "\n=== External Dependency Demo ===")
+  66.           
+
+#6
+app/src/main/java/com/linkedlist/app/LinkedListIterator.kt:6: error: Impure Function
+  Impure function Object LinkedListIterator.next(). 
+  4.    * Iterator implementation for the LinkedList
+  5.    */
+  6. > class LinkedListIterator(private var current: Node?) : Iterator<Node> {
+  7.       
+  8.       override fun hasNext(): Boolean {
+
+#7
+app/src/main/java/com/linkedlist/app/LinkedListIterator.kt:12: error: Impure Function
+  Impure function Node LinkedListIterator.next(). 
+  10.       }
+  11.   
+  12. >     override fun next(): Node {
+  13.           val temp = current ?: throw NoSuchElementException()
+  14.           current = current?.next
+
+#8
+app/src/main/java/com/linkedlist/app/MainActivity.kt:10: error: Impure Function
+  Impure function void MainActivity.onCreate(Bundle). 
+   8.   
+   9.   class MainActivity : AppCompatActivity() {
+  10. >     override fun onCreate(savedInstanceState: Bundle?) {
+  11.           super.onCreate(savedInstanceState)
+  12.           enableEdgeToEdge()
+
+#9
+app/src/main/java/com/linkedlist/app/MainActivity.kt:14: error: Impure Function
+  Impure function WindowInsetsCompat MainActivity$Lambda$_2_30.onApplyWindowInsets(View,WindowInsetsCompat). 
+  12.           enableEdgeToEdge()
+  13.           setContentView(R.layout.activity_main)
+  14. >         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+  15.               val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+  16.               v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+
+#10
+app/src/main/java/com/linkedlist/app/MainActivity.kt:14: error: Impure Function
+  Impure function WindowInsetsCompat MainActivity.access_com.linkedlist.app.MainActivity$Lambda$_2_30(View,WindowInsetsCompat). 
+  12.           enableEdgeToEdge()
+  13.           setContentView(R.layout.activity_main)
+  14. >         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+  15.               val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+  16.               v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+
+#11
+app/src/main/java/com/linkedlist/app/MainActivity.kt:15: error: Impure Function
+  Impure function WindowInsetsCompat MainActivity.onCreate$lambda$0(View,WindowInsetsCompat). 
+  13.           setContentView(R.layout.activity_main)
+  14.           ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+  15. >             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+  16.               v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+  17.               insets
+
+#12
+app/src/main/java/com/linkedlist/app/Node.kt:6: error: Impure Function
+  Impure function void Node.setData(int). 
+  4.    * Node class representing a single element in the LinkedList
+  5.    */
+  6. > class Node(var data: Int) {
+  7.       var next: Node? = null
+  8.   }
+
+#13
+app/src/main/java/com/linkedlist/app/Node.kt:7: error: Impure Function
+  Impure function void Node.setNext(Node). 
+  5.    */
+  6.   class Node(var data: Int) {
+  7. >     var next: Node? = null
+  8.   }
+
+Found 14 issues
+        Issue Type(ISSUED_TYPE_ID): #
+  Impure Function(IMPURE_FUNCTION): 14

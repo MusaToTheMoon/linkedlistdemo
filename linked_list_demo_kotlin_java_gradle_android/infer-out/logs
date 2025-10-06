@@ -1,0 +1,327 @@
+[39090][      debug] Sqlite write daemon: starting up
+[39090][      debug] Sqlite write daemon: set up complete, waiting for connections
+[39093][      debug] Sqlite write daemon: process starting, pid= 39093
+[39090][environment] CWD = /Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_projects/linked_list_demo_kotlin_java_gradle_android
+[39090][environment] No .inferconfig file found
+[39090][environment] Project root = /Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_projects/linked_list_demo_kotlin_java_gradle_android
+[39090][environment] INFER_ARGS =   @/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/args.tmp.b9ee22
+[39090][environment]                --progress-bar-style multiline
+[39090][environment] command line arguments:   infer run --impurity -- kotlinc -cp
+[39090][environment]                           /Users/musanto/Library/Android/sdk/platforms/android-35/android.jar:app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/material-1.12.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/constraintlayout-2.2.1/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/appcompat-resources-1.7.1/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/appcompat-1.7.1/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/viewpager2-1.0.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/fragment-1.5.4/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/activity-1.10.1/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/emoji2-views-helper-1.3.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/emoji2-1.3.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/drawerlayout-1.1.1/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/coordinatorlayout-1.1.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/transition-1.5.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/dynamicanimation-1.0.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/vectordrawable-animated-1.1.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/vectordrawable-1.1.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/legacy-support-core-utils-1.0.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/loader-1.0.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/viewpager-1.0.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/recyclerview-1.1.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/customview-1.1.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/core-1.16.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/savedstate-1.2.1/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/lifecycle-livedata-2.6.2/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/lifecycle-viewmodel-2.6.2/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/lifecycle-process-2.6.2/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/lifecycle-livedata-core-2.6.2/classes.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.6.2/10f354fdb64868baecd67128560c5a0d6312c495/lifecycle-common-2.6.2.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/lifecycle-runtime-2.6.2/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/lifecycle-viewmodel-savedstate-2.6.2/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/core-ktx-1.16.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/core-viewtree-1.0.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/cursoradapter-1.0.0/classes.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/androidx.resourceinspection/resourceinspection-annotation/1.0.1/8c21f8ff5d96d5d52c948707f7e4d6ca6773feef/resourceinspection-annotation-1.0.1.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/cardview-1.0.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/profileinstaller-1.4.0/classes.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-core/1.1.1/f7ab6170b99b9421bd4942846426ff820b552f7d/constraintlayout-core-1.1.1.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/startup-runtime-1.1.1/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/tracing-1.2.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/interpolator-1.0.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/versionedparcelable-1.1.1/classes.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.1.0/50b7fb98350d5f42a4e49704b03278542293ba48/concurrent-futures-1.1.0.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-jvm/1.4.2/bc60b5568a66d765a9fe8e266fd0c6c727e0b50b/collection-jvm-1.4.2.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/core-runtime-2.2.0/classes.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3/core-common-2.2.0.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/documentfile-1.0.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/localbroadcastmanager-1.0.0/classes.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/print-1.0.0/classes.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.8.1/b8a16fe526014b7941c1debaccaf9c5153692dbb/annotation-jvm-1.8.1.jar:/var/folders/w9/g2cfrj0s6_jfkpf_4_x_52x40000gn/T/tmp.6u92gar3el/annotation-experimental-1.4.1/classes.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.7.3/38d9cad3a0b03a10453b56577984bdeb48edeed5/kotlinx-coroutines-android-1.7.3.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.7.3/2b09627576f0989a436a00a4a54b55fa5026fb86/kotlinx-coroutines-core-jvm-1.7.3.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.22/b25c86d47d6b962b9cf0f8c3f320c8a10eea3dd1/kotlin-stdlib-jdk8-1.8.22.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.22/4dabb8248310d833bb6a8b516024a91fd3d275c/kotlin-stdlib-jdk7-1.8.22.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.0.21/618b539767b4899b4660a83006e052b63f1db551/kotlin-stdlib-2.0.21.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/8cc20c07506ec18e0834947b84a864bfc094484e/annotations-23.0.0.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.15.0/38c8485a652f808c8c149150da4e5c2b0bd17f9a/error_prone_annotations-2.15.0.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/1.0.0/7425a601c1c7ec76645a78d22b8c6a627edee507/jspecify-1.0.0.jar:/Users/musanto/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar
+[39090][environment]                           app/src/main/java/com/linkedlist/app/LinkedList.kt
+[39090][environment]                           app/src/main/java/com/linkedlist/app/LinkedListDemo.kt
+[39090][environment]                           app/src/main/java/com/linkedlist/app/LinkedListIterator.kt
+[39090][environment]                           app/src/main/java/com/linkedlist/app/MainActivity.kt
+[39090][environment]                           app/src/main/java/com/linkedlist/app/Node.kt
+[39090][environment]                           app/src/main/java/com/linkedlist/app/JavaLinkedList.java
+[39090][environment]                           app/src/main/java/com/linkedlist/app/JavaLinkedListDemo.java
+[39090][environment]                           app/src/main/java/com/linkedlist/app/JavaLinkedListIterator.java
+[39090][environment]                           app/src/main/java/com/linkedlist/app/JavaNode.java
+[39090][environment]                           -d build/classes/kotlin/assembleDebug
+[39090][environment] Could not retrieve available memory (possibly not on Linux)
+[39090][environment] Active checkers: self-in-block (C/C++/ObjC), parameter-not-null-checked (C/C++/ObjC), starvation (C/C++/ObjC, Java), siof (C/C++/ObjC), racerd (C/C++/ObjC, C#/.Net, Java), pulse (C/C++/ObjC, C#/.Net, Erlang, Hack, Java, Python), impurity (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java)
+[39090][environment] Scheduler: restart
+[39090][environment] Cores used: 10
+[39090][environment] Infer version v1.2.0
+[39090][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[39090][environment] 
+[39090][   progress] Capturing in kotlinc mode...
+[39090][      debug] Current working directory: '/Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_projects/linked_list_demo_kotlin_java_gradle_android'
+[39090][      debug] Trying to execute: kotlinc '@/Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_projects/linked_list_demo_kotlin_java_gradle_android/infer-out/tmp/kotlinc_args.tmp.d40072'
+[39090][      debug] *** Success. Logs:
+[39090][      debug] Translating 5 source files (273 classes)
+[39090][      debug] Global tenv size global_tenv_size_mb: 0
+[39090][      debug] done capturing all files
+[39090][      debug] GC stats for capture:
+[39090][      debug]   minor_words: 1.30671e+07
+[39090][      debug]   promoted_words: 1.48802e+06
+[39090][      debug]   major_words: 1.76951e+06
+[39090][      debug]   minor_collections: 22
+[39090][      debug]   major_collections: 4
+[39090][      debug]   compactions: 0
+[39090][      debug]   top_heap_words: 2026496
+[39090][      debug]   
+[39090][environment] Parallel jobs: 10
+[39090][   progress] Found 5 source files to analyze in /Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_projects/linked_list_demo_kotlin_java_gradle_android/infer-out
+[39154][   progress] Analysing block of 200 procs, starting with void Node.setNext(Node)
+[39146][   progress] Analysing block of 200 procs, starting with void Node.setData(int)
+[39145][   progress] Analysing block of 200 procs, starting with WindowInsetsCompat MainActivity.onCreate$lambda$0(View,WindowInsetsCompat)
+[39151][   progress] Analysing block of 200 procs, starting with int LinkedList.length()
+[39147][   progress] Analysing block of 200 procs, starting with void LinkedList.delete(int)
+[39152][   progress] Analysing block of 200 procs, starting with OnApplyWindowInsetsListener MainActivity.callsite_com.linkedlist.app.MainActivity$Lambda$_2_30()
+[39150][   progress] Analysing block of 200 procs, starting with MainActivity$Lambda$_2_30.<init>()
+[39153][   progress] Analysing block of 200 procs, starting with int Node.getData()
+[39148][   progress] Analysing block of 200 procs, starting with boolean LinkedListIterator.hasNext()
+[39149][   progress] Analysing block of 200 procs, starting with void LinkedList.insert(int)
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt starting
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt DONE
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedList.kt starting
+[39146][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt starting
+[39153][   progress] app/src/main/java/com/linkedlist/app/Node.kt starting
+[39153][   progress] app/src/main/java/com/linkedlist/app/Node.kt DONE
+[39153][   progress] app/src/main/java/com/linkedlist/app/LinkedListIterator.kt starting
+[39153][   progress] app/src/main/java/com/linkedlist/app/LinkedListIterator.kt DONE
+[39151][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt starting
+[39151][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt DONE
+[39149][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt starting
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedList.kt DONE
+[39149][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt DONE
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt starting
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt DONE
+[39151][   progress] app/src/main/java/com/linkedlist/app/LinkedListIterator.kt starting
+[39151][   progress] app/src/main/java/com/linkedlist/app/LinkedListIterator.kt DONE
+[39146][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt DONE
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedListIterator.kt starting
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedListIterator.kt DONE
+[39145][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt starting
+[39145][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt DONE
+[39150][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt starting
+[39150][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt DONE
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt starting
+[39147][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt starting
+[39147][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt DONE
+[39147][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt starting
+[39147][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt DONE
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt DONE
+[39148][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt starting
+[39148][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt DONE
+[39153][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt starting
+[39153][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt DONE
+[39152][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt starting
+[39146][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt starting
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedList.kt starting
+[39146][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt DONE
+[39152][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt DONE
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedList.kt DONE
+[39146][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt starting
+[39146][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt DONE
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt starting
+[39147][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt starting
+[39145][   progress] app/src/main/java/com/linkedlist/app/LinkedListDemo.kt DONE
+[39147][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt DONE
+[39152][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt starting
+[39152][   progress] app/src/main/java/com/linkedlist/app/MainActivity.kt DONE
+[39090][      debug] Backend stats:
+[39090][      debug]   summary_file_try_load= 639
+[39090][      debug]   summary_read_from_disk= 198
+[39090][      debug]   summary_cache_hits= 453 (41%)
+[39090][      debug]   summary_cache_misses= 639
+[39090][      debug]   ondemand_procs_analyzed= 41
+[39090][      debug]   proc_locker_lock_time_user= 0.00096500
+[39090][      debug]   proc_locker_lock_time_sys= 0.01296300
+[39090][      debug]   proc_locker_lock_time_wall= 0.01604901
+[39090][      debug]   proc_locker_lock_time_oncpu_pct= 87%
+[39090][      debug]   proc_locker_unlock_time_user= 0.00045600
+[39090][      debug]   proc_locker_unlock_time_sys= 0.00606000
+[39090][      debug]   proc_locker_unlock_time_wall= 0.00726508
+[39090][      debug]   proc_locker_unlock_time_oncpu_pct= 90%
+[39090][      debug]   restart_scheduler_useful_time_user= 1.15274600
+[39090][      debug]   restart_scheduler_useful_time_sys= 0.26253900
+[39090][      debug]   restart_scheduler_useful_time_wall= 2.88531525
+[39090][      debug]   restart_scheduler_useful_time_oncpu_pct= 49%
+[39090][      debug]   restart_scheduler_total_time_user= 1.18711600
+[39090][      debug]   restart_scheduler_total_time_sys= 0.28040400
+[39090][      debug]   restart_scheduler_total_time_wall= 2.94113250
+[39090][      debug]   restart_scheduler_total_time_oncpu_pct= 50%
+[39090][      debug]   pulse_aliasing_contradictions= 0
+[39090][      debug]   pulse_args_length_contradictions= 0
+[39090][      debug]   pulse_captured_vars_length_contradictions= 0
+[39090][      debug]   pulse_disjuncts_dropped= 0
+[39090][      debug]   pulse_interrupted_loops= 17
+[39090][      debug]   pulse_summaries_contradictions= 0
+[39090][      debug]   pulse_summaries_unsat_for_caller= 8
+[39090][      debug]   pulse_summaries_unsat_for_caller_percent= 19
+[39090][      debug]   pulse_summaries_with_some_unreachable_nodes= 15
+[39090][      debug]   pulse_summaries_with_some_unreachable_nodes_percent= 36
+[39090][      debug]   pulse_summaries_with_some_unreachable_returns= 1
+[39090][      debug]   pulse_summaries_with_some_unreachable_returns_percent= 0.2%
+[39090][      debug]   pulse_summaries_count= [0 -> 1, 1 -> 21, 2 -> 6, 3 -> 3, 4 -> 5, 5 -> 2, 8 -> 1, 10 -> 1, 16 -> 1]
+[39090][      debug]   pulse_summaries_total_disjuncts= 106
+[39090][      debug]   pulse_summaries_count_0_continue_program= 2
+[39090][      debug]   pulse_summaries_count_0_percent= 4
+[39090][      debug]   topl_reachable_calls= 0
+[39090][      debug]   timeouts= 0
+[39090][      debug]   timings= timings for fragment-retains-view:
+[39090][      debug]     p10: 0.000000s p20: 0.000000s p30: 0.000001s p40: 0.000001s
+[39090][      debug]     p50: 0.000001s p60: 0.000001s p70: 0.000001s p80: 0.000001s
+[39090][      debug]     p90: 0.000002s p95: 0.000002s p96: 0.000002s p97: 0.000002s
+[39090][      debug]     p98: 0.000002s p99: 0.000002s p99.9: 0.000002s p99.99: 0.000002s 
+[39090][      debug]   timings for impurity:
+[39090][      debug]     p10: 0.000000s p20: 0.000001s p30: 0.000004s p40: 0.000005s
+[39090][      debug]     p50: 0.000006s p60: 0.000012s p70: 0.000024s p80: 0.000042s
+[39090][      debug]     p90: 0.000357s p95: 0.000519s p96: 0.000583s p97: 0.000722s
+[39090][      debug]     p98: 0.000899s p99: 0.001037s p99.9: 0.001037s p99.99: 0.001037s 
+[39090][      debug]   timings for inefficient-keyset-iterator:
+[39090][      debug]     p10: 0.000000s p20: 0.000001s p30: 0.000005s p40: 0.000007s
+[39090][      debug]     p50: 0.000009s p60: 0.000009s p70: 0.000010s p80: 0.000020s
+[39090][      debug]     p90: 0.000024s p95: 0.000062s p96: 0.000084s p97: 0.000154s
+[39090][      debug]     p98: 0.000249s p99: 0.000323s p99.9: 0.000323s p99.99: 0.000323s 
+[39090][      debug]   timings for pulse:
+[39090][      debug]     p10: 0.000185s p20: 0.000907s p30: 0.001991s p40: 0.002848s
+[39090][      debug]     p50: 0.003045s p60: 0.003764s p70: 0.005436s p80: 0.013428s
+[39090][      debug]     p90: 0.017758s p95: 0.022765s p96: 0.025860s p97: 0.029428s
+[39090][      debug]     p98: 0.033241s p99: 0.036217s p99.9: 0.036217s p99.99: 0.036217s 
+[39090][      debug]   timings for racerd:
+[39090][      debug]     p10: 0.000000s p20: 0.000001s p30: 0.000004s p40: 0.000035s
+[39090][      debug]     p50: 0.000053s p60: 0.000078s p70: 0.000127s p80: 0.000210s
+[39090][      debug]     p90: 0.000380s p95: 0.000588s p96: 0.000668s p97: 0.000903s
+[39090][      debug]     p98: 0.001220s p99: 0.001467s p99.9: 0.001467s p99.99: 0.001467s 
+[39090][      debug]   timings for starvation:
+[39090][      debug]     p10: 0.000001s p20: 0.000037s p30: 0.000056s p40: 0.000101s
+[39090][      debug]     p50: 0.000174s p60: 0.000200s p70: 0.000281s p80: 0.000542s
+[39090][      debug]     p90: 0.000752s p95: 0.000887s p96: 0.000921s p97: 0.000977s
+[39090][      debug]     p98: 0.001323s p99: 0.002421s p99.9: 0.002687s p99.99: 0.002687s 
+[39090][      debug]   timings for preanalysis:
+[39090][      debug]     p10: 0.000159s p20: 0.000272s p30: 0.000326s p40: 0.000400s
+[39090][      debug]     p50: 0.000614s p60: 0.001064s p70: 0.001405s p80: 0.004107s
+[39090][      debug]     p90: 0.079416s p95: 0.081143s p96: 0.081943s p97: 0.086552s
+[39090][      debug]     p98: 0.090777s p99: 0.091247s p99.9: 0.091361s p99.99: 0.091361s 
+[39090][      debug]   
+[39090][      debug]   longest_proc_duration_heap= [
+[39090][      debug]   266475us: app/src/main/java/com/linkedlist/app/LinkedList.kt: void LinkedList.insert(int)
+[39090][      debug]   257807us: app/src/main/java/com/linkedlist/app/LinkedList.kt: int LinkedList.length()
+[39090][      debug]   249258us: app/src/main/java/com/linkedlist/app/MainActivity.kt: WindowInsetsCompat MainActivity.onCreate$lambda$0(View,WindowInsetsCompat)
+[39090][      debug]   248829us: app/src/main/java/com/linkedlist/app/MainActivity.kt: OnApplyWindowInsetsListener MainActivity.callsite_com.linkedlist.app.MainActivity$Lambda$_2_30()
+[39090][      debug]   248552us: app/src/main/java/com/linkedlist/app/MainActivity.kt: MainActivity$Lambda$_2_30.<init>()
+[39090][      debug]   248516us: app/src/main/java/com/linkedlist/app/LinkedListIterator.kt: boolean LinkedListIterator.hasNext()
+[39090][      debug]   247118us: app/src/main/java/com/linkedlist/app/Node.kt: void Node.setNext(Node)
+[39090][      debug]   247018us: app/src/main/java/com/linkedlist/app/Node.kt: void Node.setData(int)
+[39090][      debug]   246780us: app/src/main/java/com/linkedlist/app/Node.kt: int Node.getData()
+[39090][      debug]   245179us: app/src/main/java/com/linkedlist/app/Node.kt: Node.<init>(int)
+[39090][      debug]   ]
+[39090][      debug]   process_times_user= 1.20153400
+[39090][      debug]   process_times_sys= 0.30805800
+[39090][      debug]   process_times_wall= 4.66945025
+[39090][      debug]   process_times_oncpu_pct= 32%
+[39090][      debug]   useful_times_user= 1.20081300
+[39090][      debug]   useful_times_sys= 0.30683400
+[39090][      debug]   useful_times_wall= 2.98646104
+[39090][      debug]   useful_times_oncpu_pct= 50%
+[39090][      debug]   spec_store_times_user= 0.82203200
+[39090][      debug]   spec_store_times_sys= 0.14829700
+[39090][      debug]   spec_store_times_wall= 2.36872734
+[39090][      debug]   spec_store_times_oncpu_pct= 41%
+[39090][      debug]   
+[39090][      debug] GC stats for backend_stats.gc_stats_add.:
+[39090][      debug]   minor_words: 4.34961e+07
+[39090][      debug]   promoted_words: 4.06174e+06
+[39090][      debug]   major_words: 4.65418e+06
+[39090][      debug]   minor_collections: 41
+[39090][      debug]   major_collections: 3
+[39090][      debug]   compactions: 0
+[39090][      debug]   top_heap_words: 21481472
+[39090][      debug]   
+[39090][      debug] GC stats for backend_stats.gc_stats_max.:
+[39090][      debug]   minor_words: 1.94131e+07
+[39090][      debug]   promoted_words: 679665
+[39090][      debug]   major_words: 826277
+[39090][      debug]   minor_collections: 19
+[39090][      debug]   major_collections: 2
+[39090][      debug]   compactions: 0
+[39090][      debug]   top_heap_words: 2330624
+[39090][      debug]   
+[39090][      debug] Average over 10 processes
+[39090][      debug] GC stats for backend_stats.gc_stats_average.:
+[39090][      debug]   minor_words: 4.34961e+06
+[39090][      debug]   promoted_words: 406174
+[39090][      debug]   major_words: 465418
+[39090][      debug]   minor_collections: 4
+[39090][      debug]   major_collections: 0
+[39090][      debug]   compactions: 0
+[39090][      debug]   top_heap_words: 2148147
+[39090][      debug]   
+[39090][      debug] Analysis phase finished in 498ms
+[39090][      debug] backend_stats.scheduler_process_analysis_time_user= 0.05694400
+[39090][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.04889800
+[39090][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.49778896
+[39090][      debug] backend_stats.scheduler_process_analysis_time_oncpu_pct= 21%
+[39090][      debug] GC stats for analysis_scheduler:
+[39090][      debug]   minor_words: 1.92516e+06
+[39090][      debug]   promoted_words: 27622
+[39090][      debug]   major_words: 355932
+[39090][      debug]   minor_collections: 3
+[39090][      debug]   major_collections: 2
+[39090][      debug]   compactions: 1
+[39090][      debug]   top_heap_words: 2026496
+[39090][      debug]   
+[39090][     result] 
+app/src/main/java/com/linkedlist/app/LinkedList.kt:12: error: Impure Function
+  Impure function void LinkedList.insert(int). 
+  10.        * Insert a new element at the end of the list
+  11.        */
+  12. >     fun insert(data: Int) {
+  13.           val newNode = Node(data)
+  14.           if (head == null) {
+
+app/src/main/java/com/linkedlist/app/LinkedList.kt:29: error: Impure Function
+  Impure function void LinkedList.insertAtHead(int). 
+  27.        * Insert a new element at the beginning of the list
+  28.        */
+  29. >     fun insertAtHead(data: Int) {
+  30.           val newNode = Node(data)
+  31.           newNode.next = head
+
+app/src/main/java/com/linkedlist/app/LinkedList.kt:38: error: Impure Function
+  Impure function void LinkedList.delete(int). 
+  36.        * Delete the first occurrence of the specified value
+  37.        */
+  38. >     fun delete(key: Int) {
+  39.           if (head == null) return
+  40.   
+
+app/src/main/java/com/linkedlist/app/LinkedList.kt:84: error: Impure Function
+  Impure function String LinkedList.printList(). 
+  82.        * Print the list to console
+  83.        */
+  84. >     fun printList(): String {
+  85.           var listString = ""
+  86.           var current = head
+
+app/src/main/java/com/linkedlist/app/LinkedListDemo.kt:11: error: Impure Function
+  Impure function void LinkedListDemo.runDemo() with empty pulse summary. 
+   9.   object LinkedListDemo {
+  10.       
+  11. >     fun runDemo() {
+  12.           Log.d("LinkedListDemo", "LinkedList Demo Application: Kotlin")
+  13.           Log.d("LinkedListDemo", "===========================")
+
+
+Found 14 issues (console output truncated to 5, see '/Users/musanto/Documents/Karim_Research/Memoization/infer_testing/linked_list_demo_projects/linked_list_demo_kotlin_java_gradle_android/infer-out/report.txt' for the full list)
+        Issue Type(ISSUED_TYPE_ID): #
+  Impure Function(IMPURE_FUNCTION): 14
+
+[39090][      debug] GC stats for report:
+[39090][      debug]   minor_words: 237398
+[39090][      debug]   promoted_words: 6763
+[39090][      debug]   major_words: 15411
+[39090][      debug]   minor_collections: 1
+[39090][      debug]   major_collections: 0
+[39090][      debug]   compactions: 0
+[39090][      debug]   top_heap_words: 2026496
+[39090][      debug]   
+[39090][      debug] GC stats for main_process_full:
+[39090][      debug]   minor_words: 1.82081e+07
+[39090][      debug]   promoted_words: 1.93904e+06
+[39090][      debug]   major_words: 2.60322e+06
+[39090][      debug]   minor_collections: 33
+[39090][      debug]   major_collections: 6
+[39090][      debug]   compactions: 1
+[39090][      debug]   top_heap_words: 2026496
+[39090][      debug]   
+[39093][      debug] Detected 10 spec overwrites.
+[39093][      debug] Sqlite write daemon: terminating
+[39090][      debug] Sqlite write daemon: waiting for process 39093 to finish
+[39093][      debug] dbwriter.useful_time_user= 0.09968600
+[39093][      debug] dbwriter.useful_time_sys= 0.01094400
+[39093][      debug] dbwriter.useful_time_wall= 0.26689575
+[39093][      debug] dbwriter.useful_time_oncpu_pct= 41%
+[39093][      debug] dbwriter.store_sql_user= 0.00325300
+[39093][      debug] dbwriter.store_sql_sys= 0.00312100
+[39093][      debug] dbwriter.store_sql_wall= 0.00670042
+[39093][      debug] dbwriter.store_sql_oncpu_pct= 95%
+[39093][      debug] dbwriter.store_sql_pct= 6%
+[39093][      debug] dbwriter.total_time_user= 0.10901200
+[39093][      debug] dbwriter.total_time_sys= 0.01735300
+[39093][      debug] dbwriter.total_time_wall= 5.98627321
+[39093][      debug] dbwriter.total_time_oncpu_pct= 2%
+[39093][      debug] [39090][      debug] Sqlite write daemon: process 39093 terminated
